@@ -82,3 +82,8 @@ docker compose up --build
 
 ### Étape 4 — Accéder à l'application
 Ouvre le navigateur sur : http://localhost:5173
+
+### Avantages de Docker
+- Pas besoin d'installer Python ou Node.js
+- Pas de problèmes de versions
+- Fonctionne en une seule commande
