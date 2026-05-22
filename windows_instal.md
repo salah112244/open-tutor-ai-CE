@@ -57,3 +57,28 @@ par :target: 'http://localhost:8080'
 | Python 3.10 incompatible | Utiliser Python 3.11 obligatoirement |
 | Backend Required error   | Corriger vite.config.ts |
 | conda non reconnu        | Utiliser Anaconda Prompt |
+
+## Option 2 — Installation avec Docker (Recommandée)
+
+### Prérequis
+- Installer Docker Desktop : https://www.docker.com/products/docker-desktop/
+- Git
+
+### Étape 1 — Cloner le projet
+bash
+git clone https://github.com/Open-TutorAi/open-tutor-ai-CE.git
+cd open-tutor-ai-CE
+
+
+### Étape 2 — Configurer le fichier .env
+bash
+copy .env.example .env
+
+
+### Étape 3 — Lancer avec Docker
+bash
+docker compose up --build
+
+
+### Étape 4 — Accéder à l'application
+Ouvre le navigateur sur :
