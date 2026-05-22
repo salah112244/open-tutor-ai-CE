@@ -81,4 +81,4 @@ docker compose up --build
 
 
 ### Étape 4 — Accéder à l'application
-Ouvre le navigateur sur :
+Ouvre le navigateur sur : http://localhost:5173
